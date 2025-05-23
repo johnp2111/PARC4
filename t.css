@@ -1,0 +1,142 @@
+body { 
+      background: #0b0c10; 
+      color: #C5C6C7; 
+      line-height: 1.6; 
+      padding: 30px; 
+      font-family: 'Segoe UI', sans-serif; 
+    } 
+    
+    header { 
+      text-align: center; 
+      margin-bottom: 40px; 
+    } 
+    
+    header h1 { 
+      font-size: 28px; 
+      margin-bottom: 10px; 
+    } 
+    
+    .subtitle { 
+      font-weight: 600; 
+    } 
+    
+    .content { 
+      display: flex; 
+      justify-content: space-between; 
+      gap: 40px; 
+      max-width: 1200px; 
+      margin: 0 auto; 
+    } 
+    
+    section { 
+      flex: 1; 
+    } 
+    
+    .left h2 { 
+      font-size: 24px; 
+      margin-bottom: 20px; 
+    } 
+    
+    .left p { 
+      margin-bottom: 15px; 
+      font-size: 14px; 
+    } 
+    
+    .center h3, .right h3 { 
+      font-size: 18px; 
+      margin-bottom: 15px; 
+    } 
+    
+    .center ul { 
+      list-style-type: disc; 
+      padding-left: 20px; 
+      font-size: 14px; 
+    } 
+    
+    .right p { 
+      font-size: 14px; 
+      margin-bottom: 15px; 
+    } 
+    
+    .right img { 
+      width: 100%; 
+      max-width: 300px; 
+      height: auto; 
+      display: block; 
+      margin: 0 auto; 
+    } 
+    
+    .main { 
+      color: #68FCF1; 
+    } 
+    
+    .highlight { 
+      color: orange; 
+    } 
+    
+    .gallery { 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px; 
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    } 
+    
+    .gallery-item { 
+      text-align: center; 
+      max-width: 200px;
+      flex: 0 0 auto;
+    } 
+    
+    .gallery-item img { 
+      width: 100%; 
+      border-radius: 10px; 
+    } 
+    
+    .caption { 
+      font-weight: bold; 
+      margin-top: 8px; 
+    } 
+    
+    .subcaption { 
+      font-size: 12px; 
+      color: gray; 
+    } 
+    
+    .video { 
+      text-align: center; 
+      margin: 40px 0;
+    } 
+    
+    .Links { 
+      text-align: center; 
+      margin-top: 40px;
+    } 
+    
+    a:hover { 
+      color: blue; 
+    } 
+    
+    a { 
+      color: orange; 
+      text-decoration: none; 
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      .gallery {
+        padding: 20px;
+        gap: 20px;
+      }
+      
+      .gallery-item {
+        max-width: 150px;
+      }
+    }

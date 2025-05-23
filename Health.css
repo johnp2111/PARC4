@@ -1,0 +1,158 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0c10;
+    color: #C5C6C7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #68FCF1;
+    margin-bottom: 10px;
+  }
+  
+  header .highlight {
+    color: #d24f00;
+    font-weight: bold;
+
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .text-block {
+    flex: 1;
+    background: #1F2833;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-block h2 {
+    color: #68FCF1;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .text-block p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  
+  /* Center Image Block */
+  .image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .image-block img {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Links */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .alt-links a {
+    color: #cc6600;
+    font-weight: 500;
+    margin-right: 8px;
+  }
+  .alt-links2:hover {
+    color: gray;
+  }
+  .btn-link {
+    display: inline-block;
+    background-color: #004466;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .btn-link:hover {
+    background-color: #006699;
+  }
+
+  .channel_link {
+    color: orange;
+  }
+
+  .channel_link:hover {
+    color: gray;
+  }
+  
+  /* Footer */
+  .medias {
+    text-align: center;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    margin-top: 0px;
+    background-color: #d24f00;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .contact-btn:hover {
+    background-color: #f26522;
+  }
+  
+  /* Responsive */
+  @media (max-width: 960px) {
+    .main-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-block {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    .image-block img {
+      width: 45%;
+    }
+  }
